@@ -19,3 +19,15 @@ Add a `.eslintrc.js` to your project where you specify this package in the `exte
     module.exports = {
       extends: ['@sensebox/eslint-config-sensebox']
     };
+
+Add a `lint` script to your `package.json`
+
+    {
+      ...
+      "scripts": {
+        ...
+        "lint": "eslint --fix \"{src,test,.scripts,whatever}/**/*.js\""
+      }
+    }
+
+Run `yarn lint` or `npm run lint`
