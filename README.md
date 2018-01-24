@@ -8,11 +8,11 @@ Install the following packages:
 
 Yarn
 
-    yarn add --tilde --dev @sensebox/eslint-config-sensebox eslint@4.16.0 eslint-config-prettier@2.9.0 eslint-plugin-prettier@2.5.0 prettier@1.10.2
+    yarn add --tilde --dev @sensebox/eslint-config-sensebox eslint@4.16.0
 
 NPM
 
-    npm install --save-dev @sensebox/eslint-config-sensebox eslint@4.16.0 eslint-config-prettier@2.9.0 eslint-plugin-prettier@2.5.0 prettier@1.10.2
+    npm install --save-dev @sensebox/eslint-config-sensebox eslint@4.16.0
 
 Add a `.eslintrc.js` to your project where you specify this package in the `extends` key
 
