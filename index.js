@@ -26,7 +26,6 @@ module.exports = {
     'space-before-blocks': ['error'],
     'no-template-curly-in-string': ['error'],
     'block-scoped-var': ['error'],
-    complexity: ['warn', 10],
     'dot-location': ['error', 'property'],
     'no-else-return': 'error',
     'no-floating-decimal': 'error',
