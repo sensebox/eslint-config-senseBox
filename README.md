@@ -8,11 +8,11 @@ Install the following packages:
 
 Yarn
 
-    yarn add --tilde --dev @sensebox/eslint-config-sensebox eslint@4.16.0
+    yarn add --tilde --dev @sensebox/eslint-config-sensebox eslint@8.6.0
 
 NPM
 
-    npm install --save-dev @sensebox/eslint-config-sensebox eslint@4.16.0
+    npm install --save-dev @sensebox/eslint-config-sensebox eslint@8.6.0
 
 Add a `.eslintrc.js` to your project where you specify this package in the `extends` key
 
